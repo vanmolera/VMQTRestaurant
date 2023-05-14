@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VMQT RESTAURANT | VMQT</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="./images/logo-temp.png" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+        rel="stylesheet">
+
+    <link rel="preload" as="image" href="./images/img1.jpg">
+    <link rel="preload" as="image" href="./images/img2.jpg">
+    <link rel="preload" as="image" href="./images/img3.jpg">
+
+</head>
+
+<body>
+
+    <!-- PRELOADER -->
+    <div class="preload" data-preaload>
+        <div class="circle"></div>
+        <div class="preload-text-container">
+            <p class="text">VMQT</p>
+            <hr class="preload-line">
+            <p class="text2">RESTAURANT</p>
+        </div>
+    </div>
+
+
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+        <div class="container">
+
+            <address class="topbar-item">
+                <div class="icon">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <span class="span">Calumpang Binangonan, Rizal 1940</span>
+            </address>
+
+            <div class="seperator"></div>
+
+            <div class="topbar-item" item-2>
+                <div class="icon">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                    <span>Daily : 9.00 am to 11.00 pm</span>
+                </div>
+
+                <a href="tel:09667604743" class="topbar-item">
+                    <div class="icon">
+                        <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <span>(+63) 966 760 4743</span>
+                </a>
+
+                <div class="seperator">
+                    <a href="mailto:moleraspunky@gmail.com" class="topbar-item">
+                        <div class="icon">
+                            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                        </div>
+                        <span>VMQT@restaurant.com</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- HEADER -->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./images/logo-temp.png" width="160" height="50" alt="VMQT - Home">
+            </a>
+            <nav class="navbar active" data-navbar>
+                <!-- IDENTIFY WHATS WRONG WITH THIS BUTTON -->
+                <button class="close-btn" aria-label="close menu" data-navbar-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <a href="#" class="logo">
+                    <img src="./images/logo-temp.png" width="160" height="50" alt="VMQT - Home">
+                </a>
+
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#home" class="navbar-link hover-underline active">
+                            <div class="seperator"></div>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    
+                    <li class="navbar-item">
+                        <a href="#menu" class="navbar-link hover-underline active">
+                            <div class="seperator"></div>
+                            <span>Menus</span>
+                        </a>
+                    </li>
+                    
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link hover-underline active">
+                            <div class="seperator"></div>
+                            <span>About Us</span>
+                        </a>
+                    </li>
+                    
+                    <li class="navbar-item">
+                        <a href="#chefs" class="navbar-link hover-underline active">
+                            <div class="seperator"></div>
+                            <span>Chefs</span>
+                        </a>
+                    </li>
+                    
+                    <li class="navbar-item">
+                        <a href="#contact" class="navbar-link hover-underline active">
+                            <div class="seperator"></div>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="text-center">
+                    <p class="headline-1 navbar-title">Visit Us</p>
+                    <address class="body-4">
+                        Calumpang Binangonan, Rizal 1940
+                    </address>
+
+                    <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+                    <a href="mailto:moleraspunky@gmail.com" class="sidebar-link">VMQTRestaurant@gmail.com</a>
+                    <div class="seperator"></div>
+                    <p class="contact-label">Booking Request</p>
+
+                    <a href="tel:09667604743" class="body-1 contact-number hover-underline">(+63) 966 760 4743</a>
+                </div>
+                <a href="#" class="btn btn-secondary">
+                    <span class="text text-1">Find A Table</span>
+                    <span class="text text-2" aria-hidden="true">Find A Table</span>
+                </a>
+            </nav>
+
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+    </header>
+
+
+
+
+    <script src="script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
